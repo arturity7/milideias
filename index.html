@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mil Ideias</title>
+
+    <link rel="stylesheet" href="login.css" />
+    </head> 
+
+<body>
+    <div class="login-page">
+        <img class="login-logo" src="imgs/logo.png" alt="Mil Ideias" />
+
+    <div class="login-card">
+      <input id="email" type="email" placeholder="E-mail" />
+      <input id="password" type="password" placeholder="Senha" />
+
+      <button class="btn btn-primary" id="submitBtn">Entrar</button>
+
+      <button class="google-btn" id="googleBtn">
+  <svg class="google-icon" viewBox="0 0 48 48">
+    <path fill="#EA4335" d="M24 9.5c3.1 0 5.9 1.1 8.1 3l6-6C34.3 3.3 29.5 1.5 24 1.5 14.7 1.5 6.9 7.4 3.9 15.3l7 5.5C12.7 14.4 17.8 9.5 24 9.5z"/>
+    <path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.5 2.7-2 5-4.3 6.6l7 5.5c4.1-3.8 6.5-9.4 6.5-16.6z"/>
+    <path fill="#FBBC05" d="M10.9 28.8c-.5-1.5-.8-3.1-.8-4.8s.3-3.3.8-4.8l-7-5.5C2.4 16.7 1.5 20.2 1.5 24s.9 7.3 2.4 10.3l7-5.5z"/>
+    <path fill="#34A853" d="M24 46.5c5.5 0 10.3-1.8 13.7-5l-7-5.5c-1.9 1.3-4.3 2-6.7 2-6.2 0-11.3-4.2-13.1-9.8l-7 5.5c3 7.9 10.8 13.8 20.1 13.8z"/>
+  </svg>
+  
+    Entrar com Google
+</button>
+
+
+      <span class="link" id="toggleBtn">Criar conta</span>
+      <p id="msg"></p>
+    </div>
+
+  </div>
+
+  <script type="module" src="auth.js"></script>
+</body>
+
+</html>
